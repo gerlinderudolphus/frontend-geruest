@@ -1,0 +1,11 @@
+.playback-view {
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  gap: var(--space-3);
+  min-height: 0;
+  height: 100%;
+}
+
+.playback-view__map {
+  min-height: 0;
+}

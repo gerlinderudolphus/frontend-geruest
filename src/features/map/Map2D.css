@@ -1,0 +1,23 @@
+.map2d {
+  position: relative;
+  min-height: 0;
+  height: 100%;
+  overflow: hidden;
+  border-radius: var(--radius-lg);
+}
+
+.map2d .maplibregl-map,
+.map2d .maplibregl-canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.map2d .maplibregl-ctrl-group {
+  border: 0;
+  box-shadow: var(--shadow);
+}
+
+.map2d .maplibregl-ctrl button {
+  width: 44px;
+  height: 44px;
+}

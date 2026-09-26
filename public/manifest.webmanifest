@@ -1,0 +1,17 @@
+{
+  "name": "Operations Tablet",
+  "short_name": "OpsTablet",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#0f1720",
+  "theme_color": "#0f1720",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
